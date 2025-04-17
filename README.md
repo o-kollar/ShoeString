@@ -23,7 +23,7 @@ chmod +x shoestring-linux-amd64
 
 ### From Releases
 
-1. Visit the [Releases page](https://github.com/yourusername/shoestring/releases).  
+1. Visit the [Releases page](https://github.com/o-kollar/ShoeString/releases).  
 2. Download the binary matching your OS/architecture.  
 3. Rename to `shoestring`, e.g.:
    ```bash
