@@ -1,12 +1,9 @@
 
 # ShoeString
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/shoestring)](https://goreportcard.com/report/github.com/yourusername/shoestring)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+The main goal of this project is to provide a functional example of a modern, efficient language model architecture. It is specifically tailored for environments where computational resources (CPU, RAM) might be limited, making it potentially suitable for edge devices or low-power servers where large transformer models are infeasible. 
 
-A **lightweight**, **Mixture‑of‑Experts GRU** language model—perfect for CPU‑constrained or edge environments. ShoeString delivers next‑token prediction with minimal dependencies and memory footprint.
-
----
+Its primary function is sequential prediction (predicting the next token given previous ones).
 
 
 ## 🚀 Quick Start
