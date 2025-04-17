@@ -1,4 +1,4 @@
-# Shoestring
+# ShoeString
 
 This project implements a compact language model in Go, designed primarily for **next-token prediction** tasks, especially on **resource-constrained hardware**. It features a custom GRU architecture.
 
