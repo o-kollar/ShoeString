@@ -93,6 +93,43 @@ Its primary function is sequential prediction (predicting the next token given p
         *   Loads the specified checkpoint.
         *   Starts the interactive chat prompt.
         *   Type your message, press Enter. Type `exit` or `quit` to end.
+     
+
+
+## Configuration Flags
+
+*(Run `./min-gru-<os>-<arch> -h` to see all flags and default values)*
+
+**Paths & Modes:**
+
+*   `-checkpoint <path>`: Path to load/resume from a checkpoint file.
+*   `-bpe-data <path>`: Path to data for BPE training.
+*   `-model-data <path>`: Path to data for model training.
+*   `-train`: Boolean flag to enable model training.
+
+**Architecture Hyperparameters:**
+
+*   `-bpe-vocab-size <int>`: Target BPE vocabulary size (default: 850).
+*   `-embedding-dim <int>`: Dimension of token embeddings (default: 96).
+*   `-gru-hidden-size <int>`: Hidden size for GRU layers (default: 96).
+*   `-gru-layers <int>`: Number of GRU layers (default: 2).
+*   `-num-experts <int>`: Number of experts per MoE layer (default: 6).
+
+**Training Hyperparameters:**
+
+*   `-seq-length <int>`: Sequence length for training steps (default: 80).
+*   `-batch-size <int>`: Number of sequences per training batch (default: 16).
+*   `-epochs <int>`: Total number of training epochs (default: 5).
+*   `-lr <float>`: Learning rate for AdamW (default: 0.001).
+*   `-wd <float>`: Weight decay for AdamW (default: 0.01).
+*   `-grad-clip <float>`: Gradient clipping value (default: 5.0).
+*   `-eps-rmsnorm <float>`: Epsilon for RMSNorm stability (default: 1e-05).
+*   `-eps-adamw <float>`: Epsilon for AdamW stability (default: 1e-08).
+
+**Inference:**
+
+*   `-max-response <int>`: Maximum number of tokens to generate in chat mode (default: 260).
+
 
 ## Architecture Details
 
@@ -161,38 +198,3 @@ flowchart TB
 
 
 ```
-
-
-## Configuration Flags
-
-*(Run `./min-gru-<os>-<arch> -h` to see all flags and default values)*
-
-**Paths & Modes:**
-
-*   `-checkpoint <path>`: Path to load/resume from a checkpoint file.
-*   `-bpe-data <path>`: Path to data for BPE training.
-*   `-model-data <path>`: Path to data for model training.
-*   `-train`: Boolean flag to enable model training.
-
-**Architecture Hyperparameters:**
-
-*   `-bpe-vocab-size <int>`: Target BPE vocabulary size (default: 850).
-*   `-embedding-dim <int>`: Dimension of token embeddings (default: 96).
-*   `-gru-hidden-size <int>`: Hidden size for GRU layers (default: 96).
-*   `-gru-layers <int>`: Number of GRU layers (default: 2).
-*   `-num-experts <int>`: Number of experts per MoE layer (default: 6).
-
-**Training Hyperparameters:**
-
-*   `-seq-length <int>`: Sequence length for training steps (default: 80).
-*   `-batch-size <int>`: Number of sequences per training batch (default: 16).
-*   `-epochs <int>`: Total number of training epochs (default: 5).
-*   `-lr <float>`: Learning rate for AdamW (default: 0.001).
-*   `-wd <float>`: Weight decay for AdamW (default: 0.01).
-*   `-grad-clip <float>`: Gradient clipping value (default: 5.0).
-*   `-eps-rmsnorm <float>`: Epsilon for RMSNorm stability (default: 1e-05).
-*   `-eps-adamw <float>`: Epsilon for AdamW stability (default: 1e-08).
-
-**Inference:**
-
-*   `-max-response <int>`: Maximum number of tokens to generate in chat mode (default: 260).
