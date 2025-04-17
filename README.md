@@ -25,6 +25,13 @@ chmod +x shoestring-linux-amd64
 
 1. Visit the [Releases page](https://github.com/o-kollar/ShoeString/releases).  
 2. Download the binary matching your OS/architecture.  
+    | OS      | Architecture | Target                | Binary Suffix (Example) |
+    | :------ | :----------- | :-------------------- | :---------------------- |
+    | Linux   | amd64        | 64-bit Linux          | linux-amd64   |
+    | Windows | amd64        | 64-bit Windows        | windows-amd64.exe |
+    | macOS   | amd64        | macOS (Intel)         | darwin-amd64  |
+    | macOS   | arm64        | macOS (Apple Silicon) | darwin-arm64  |
+    | Linux   | arm64        | Raspberry Pi / ARM    | linux-arm64   |
 3. Rename to `shoestring`, e.g.:
    ```bash
    mv shoestring-linux-amd64 shoestring && chmod +x shoestring
