@@ -1,5 +1,5 @@
 
-# ShoeString
+# shoestring
 
 The main goal of this project is to provide a functional example of a modern, efficient language model architecture. It is specifically tailored for environments where computational resources (CPU, RAM) might be limited, making it potentially suitable for edge devices or low-power servers where large transformer models are infeasible. 
 
