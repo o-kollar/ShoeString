@@ -107,102 +107,58 @@ Its primary function is sequential prediction (predicting the next token given p
 *   **RMSNorm:** Applied after the residual connection in each layer. It normalizes the activations based on the root mean square, providing stabilization during training with lower computational cost than standard Layer Normalization.
 *   **Output Layer:** A final linear layer followed by Softmax converts the final hidden state into probabilities over the vocabulary for next-token prediction.
 ```mermaid
-flowchart TD
+flowchart TB
     %% --- Style Definitions ---
-    classDef Input    fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef Input    stroke:#333,stroke-width:2px;
     classDef Output   fill:#ccf,stroke:#333,stroke-width:2px;
     classDef Layer    fill:#e6ffe6,stroke:#66c266,stroke-width:1px;
-    classDef Expert   fill:#fff0b3,stroke:#cca300,stroke-width:1px;
     classDef Gate     fill:#ffe6e6,stroke:#cc6666,stroke-width:1px;
-    classDef Norm     fill:#e0ffff,stroke:#008080,stroke-width:1px;
+    classDef Expert   fill:#fff0b3,stroke:#cca300,stroke-width:1px;
     classDef Combine  fill:#f0f8ff,stroke:#4682b4,stroke-width:1px;
+    classDef Norm     fill:#e0ffff,stroke:#008080,stroke-width:1px;
 
-    %% --- Main Flow ---
-    InputTokenID["Input Token ID (t)"]:::Input
-    InputTokenID --> WE["Embedding Lookup (WE)"]
-    WE --> X0["Embedding Vector x(t)"]
+    %% --- Embedding Layer ---
+    InputID["Input Token ID (t)"]:::Input
+    InputID --> WE["Embedding Lookup WE"] 
+    WE --> XV["Embedding Vector x(t)"]
 
-    %% External to Layer 1
-    X0 --> |"Input to Layer 1"| X_in1
-    H_prev1["Hidden h(t-1) from Layer 1"] --> |"Recurrence"| H_in1
+    %% --- Layer 0 ---
+    XV --> L0_in["Input x to Layer 0"]
+    H0_prev["Hidden state h(t-1) Layer 0"] --> L0_in
 
-    %% --- Layer 1 ---
-    subgraph MoE_GRU_Layer1 [MoE-GRU Layer 1]
+    subgraph Layer0 
       direction TB
-      X_in1["x(t)"]
-      H_in1["h(t-1)"]
+      class Layer0 Layer
 
-      subgraph Gating1 [Gating Network]
-        direction TB
-        X_in1 --> GLogits1["Wg*x + bg"]
-        GLogits1 --> GWeights1["Softmax -> Gating Weights"]
-      end
-      class Gating1 Gate
+      L0_in --> G0["Wg0 * x + bg0"]:::Gate
+      G0 --> GW0["Softmax -> gating weights"]:::Gate
 
-      subgraph Experts1 
-        direction TB
-        Expert1_1["Expert 1 (GRU gates + GELU)"]
-        ExpertN1["... Expert E ..."]
-        X_in1 --> Expert1_1 & ExpertN1
-        H_in1 --> Expert1_1 & ExpertN1
-      end
-      class Experts1 Expert
+      L0_in --> E0["Experts 0..E\n(GRU gates + GELU)"]:::Expert
+      H0_prev --> E0
 
-      Expert1_1 & ExpertN1 --> |"h_e(t)"| CombineExperts1
-      GWeights1 --> |"weights"| CombineExperts1
-      CombineExperts1["Combine Experts (Weighted Sum)"]:::Combine --> H_Combined1["h_comb(t)"]
+      GW0 --> Comb0["Weighted sum of expert outputs"]:::Combine
+      E0 --> Comb0
 
-      subgraph ResidualNorm1 [Residual & Norm]
-        direction TB
-        X_in1 --> ProjX1["Optional Projection (Wp)"]
-        H_Combined1 --> Add1["+ Residual"]
-        ProjX1 --> Add1
-        Add1 --> RMSNorm1["RMSNorm"]
-      end
-      class ResidualNorm1 Norm
+      Comb0 --> Res0["Add residual (proj if needed)"]
+      Res0 --> Norm0["RMSNorm g_rms0"]:::Norm
 
-      RMSNorm1 --> X_out1["Layer 1 Output x(t)"]
+      Norm0 --> L0_out["Output x from Layer 0"]
     end
-    class MoE_GRU_Layer1 Layer
 
-    %% --- Recursion / Stacking ---
-    X_out1 --> |"Feeds next"| X_inN
-    X_prevN["x(t) from Layer N-1"] --> |"Input to Layer N"| X_inN
-    H_prevN["h(t-1) from Layer N-1"] --> |"Recurrence"| H_inN
+    %% --- Layer 1 ---
+    L0_out --> Lx_in["Input x to Layer 1"]
+   
 
-    %% --- Layer N (Simplified) ---
-    subgraph MoE_GRU_LayerN [MoE-GRU Layer N]
-      direction TB
-      X_inN["x(t)"]
-      H_inN["h(t-1)"]
 
-      subgraph GatingN [Gating Network N]
-        direction TB
-        X_inN --> GLogitsN["Wg*x + bg"]
-        GLogitsN --> GWeightsN["Softmax -> Gating Weights"]
-      end
-      class GatingN Gate
+    %% --- (…you can stack more layers the same way…) ---
 
-      subgraph ExpertsN [Experts N]
-        direction TB
-        ExpertsN_Out["Experts Output"]
-        GWeightsN --> |"weights"| ExpertsN_Out
-      end
-      class ExpertsN Expert
-
-      ExpertsN_Out --> AddN["+ Residual"]:::Norm
-      X_inN --> AddN
-      AddN --> RMSNormN["RMSNorm"]:::Norm
-      RMSNormN --> X_outN["Final x(t)"]
-    end
-    class MoE_GRU_LayerN Layer
-
-    %% --- Output ---
-    X_outN --> OutputLayer["Output Projection (Whd, bd)"]
-    OutputLayer --> Logits["Logits"]
+    %% --- Output Layer ---
+    Lx_in --> OutProj["Output Projection (Whd, bd)"]
+    OutProj --> Logits["Logits over Vocab"]
     Logits --> Softmax["Softmax"]
-    Softmax --> OutputProbs["P(token|context)"]:::Output
-    OutputProbs --> SampledToken["Next Token ID"]:::Output
+    Softmax --> Probs["P(token | context)"]:::Output
+    Probs --> NextID["Next Token ID (t+1)"]:::Output
+
 
 ```
 
