@@ -6,19 +6,6 @@ The main goal of this project is to provide a functional example of a modern, ef
 Its primary function is sequential prediction (predicting the next token given previous ones).
 
 
-## 🚀 Quick Start
-
-Download a pre‑built binary, make it executable, and run:
-
-```bash
-# Linux x86_64 example:
-curl -LO https://github.com/yourusername/shoestring/releases/download/v0.1.0/shoestring-linux-amd64
-chmod +x shoestring-linux-amd64
-./shoestring-linux-amd64 -help
-```
-
----
-
 ## 💻 Installation
 
 ### From Releases
