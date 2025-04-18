@@ -1,11 +1,3 @@
-
-# shoestring
-
-The main goal of this project is to provide a functional example of a modern, efficient language model architecture. It is specifically tailored for environments where computational resources (CPU, RAM) might be limited, making it potentially suitable for edge devices or low-power servers where large transformer models are infeasible. 
-
-Its primary function is sequential prediction (predicting the next token given previous ones).
-
-
 ## 💻 Installation
 
 ### From Releases
@@ -99,25 +91,5 @@ Run `./shoestring -help` for the full list. Key flags include:
 | `-epochs N`          | int      | `5`     | Total training epochs                            |
 | `-lr F`              | float64 | `0.001` | Learning rate for AdamW optimizer                |
 | `-max-response N`    | int      | `260`   | Max tokens to generate in chat mode              |
-
----
-
-## 📐 Architecture Overview
-
-1. **Tokenizer (BPE)**  
-   Splits text into subword units for efficient vocabulary usage.
-
-2. **Embedding Layer**  
-   Maps each token ID to a dense vector of size `embedding-dim`.
-
-3. **GRU Layers**  
-   - **Gating Network:** Learns per‑expert weights via softmax over inputs.  
-   - **Experts:** Multiple small GRUs.  
-   - **Combine:** Weighted sum of expert outputs.  
-   - **Residual & Projection:** Adds input (projected if dims differ) to combined output.  
-   - **RMSNorm:** Normalizes activations for stability.
-
-4. **Output Projection + Softmax**  
-   Linear layer converting final hidden state to vocabulary logits, then softmax to probabilities.
 
 ---
