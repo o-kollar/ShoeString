@@ -4,7 +4,7 @@
 
 1. Visit the [Releases page](https://github.com/o-kollar/ShoeString/releases).  
 2. Download the binary matching your OS/architecture.  
-    | OS      | Architecture | Target                | Binary Suffix (Example) |
+    | OS      | Architecture | Target                | Binary Suffix |
     | :------ | :----------- | :-------------------- | :---------------------- |
     | Linux   | amd64        | 64-bit Linux          | linux-amd64   |
     | Windows | amd64        | 64-bit Windows        | windows-amd64.exe |
