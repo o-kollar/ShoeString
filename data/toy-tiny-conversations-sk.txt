@@ -6009,6 +6009,314 @@ Topic 50: Športový tím
 
 Topic 51: Jazykové kurzy
 
+Topic 106: Sociálna sieť
+
+[USER] Čo ti na sociálnych sieťach najviac vadí? [EOS]
+[BOT] Sociálne siete majú svoje svetlé aj tienisté stránky. 🤔 Myslíš si, že sociálne siete viac spájajú alebo rozdeľujú ľudí? Aký je tvoj pohľad? ✨ [EOS]
+[USER] Instagram je zameraný na vizuálny obsah. [EOS]
+[BOT] Áno, fotky a videá tam hrajú hlavnú rolu. 👍 Aký typ obsahu na Instagrame sleduješ najradšej? Cestovanie, jedlo, módu, umenie, alebo niečo iné? 📸 [EOS]
+
+Topic 107: Video hovory
+
+[USER] Akú platformu najradšej používaš na video hovory? [EOS]
+[BOT] Dnes máme na výber z mnohých nástrojov na video komunikáciu. ❤️ Aký najvtipnejší moment si zažil/a počas video hovoru? Nečakaný hosť v zábere, technický problém? 😄 [EOS]
+[USER] Stabilné pripojenie je dôležité pre video hovory. [EOS]
+[BOT] Určite, sekanie obrazu a zvuku vie byť frustrujúce! 👍 Aký je tvoj názor na skupinové video hovory? Sú pre teba efektívne, alebo skôr chaotické? 🤔 [EOS]
+
+Topic 108: Online nákupy
+
+[USER] Čo najčastejšie nakupuješ online? [EOS]
+[BOT] Online sa dá dnes kúpiť takmer všetko. 🛍️ Aká je podľa teba najväčšia výhoda online nakupovania oproti kamenným obchodom? Pohodlie, výber, ceny? 🤔 [EOS]
+[USER] Doručenie domov je pohodlné. [EOS]
+[BOT] Súhlasím, nemusíme nikam chodiť! 👍 Aký spôsob doručenia preferuješ? Kuriér priamo domov, odberné miesto, alebo balíkomat? ✨ [EOS]
+
+Topic 109: Online bankovníctvo
+
+[USER] Aká funkcia online bankovníctva je pre teba najdôležitejšia? [EOS]
+[BOT] Každý využíva online bankovníctvo trochu inak. 💸 Myslíš si, že online bankovníctvo je dostatočne bezpečné? Aké bezpečnostné prvky považuješ za kľúčové? 🤔 [EOS]
+[USER] Mobilná aplikácia banky je užitočná. [EOS]
+[BOT] Áno, umožňuje spravovať financie na cestách. 👍 Ktorú funkciu v mobilnej aplikácii banky používaš najčastejšie? Kontrola zostatku, zadávanie platieb, skenovanie QR kódov? ✨ [EOS]
+
+Topic 110: Antivírusový program
+
+[USER] Aký antivírusový program považuješ za najspoľahlivejší? [EOS]
+[BOT] Dôvera v antivírus je kľúčová pre pocit bezpečia. 😇 Aký je tvoj názor na integrované antivírusové riešenia v operačných systémoch (napr. Windows Defender)? Sú podľa teba dostatočné? 🤔 [EOS]
+[USER] Pravidelné aktualizácie sú dôležité pre antivírus. [EOS]
+[BOT] Presne tak, hrozby sa neustále vyvíjajú! 👍 Ako často spúšťaš manuálnu kontrolu počítača antivírusom, alebo sa spoliehaš len na automatickú ochranu? ✨ [EOS]
+
+Topic 111: Webová kamera
+
+[USER] Na čo okrem video hovorov používaš webovú kameru? [EOS]
+[BOT] Webová kamera môže mať rôzne využitie. 👁️ Aký je tvoj názor na kvalitu vstavaných webkamier v notebookoch? Je pre teba dostatočná, alebo preferuješ externú kameru? 🤔 [EOS]
+[USER] Externá webkamera má často lepšiu kvalitu. [EOS]
+[BOT] Súhlasím, rozdiel môže byť viditeľný. 👍 Akú vlastnosť by mala mať ideálna webkamera podľa teba? Vysoké rozlíšenie, dobrý mikrofón, krytku objektívu? ✨ [EOS]
+
+Topic 112: Mikrofón
+
+[USER] Kedy najčastejšie používaš externý mikrofón? [EOS]
+[BOT] Kvalita zvuku je dôležitá v mnohých situáciách. 🗣️ Aký typ mikrofónu preferuješ pre nahrávanie hlasu alebo podcastov? Kondenzátorový, dynamický? Máš nejakú obľúbenú značku? 🤔 [EOS]
+[USER] Slúchadlá s mikrofónom sú praktické. [EOS]
+[BOT] Áno, kombinácia 2v1 je pohodlná. 👍 Aký je tvoj názor na kvalitu mikrofónov v bezdrôtových slúchadlách? Je porovnateľná s káblovými? ✨ [EOS]
+
+Topic 113: Reproduktory
+
+[USER] Preferuješ stereo reproduktory alebo skôr soundbar? [EOS]
+[BOT] Každé riešenie má svoje výhody pre iný typ zážitku. 🔊 Aký žáner hudby podľa teba najlepšie vynikne na kvalitných reproduktoroch? Klasická hudba, elektronická, rock? 🤔 [EOS]
+[USER] Bluetooth reproduktory sú prenosné. [EOS]
+[BOT] Prenosnosť je veľká výhoda! 👍 Akú vlastnosť okrem zvuku považuješ za dôležitú pri výbere Bluetooth reproduktora? Výdrž batérie, odolnosť voči vode, dizajn? ✨ [EOS]
+
+Topic 114: Tlačiareň
+
+[USER] Ako často doma tlačíš dokumenty? [EOS]
+[BOT] Potreba tlače sa líši, niekto tlačí denne, iný raz za rok. 📄 Aký typ tlačiarne preferuješ a prečo? Laserovú alebo atramentovú? 🤔 [EOS]
+[USER] Tlač fotografií doma je možná. [EOS]
+[BOT] Áno, aj keď kvalita sa môže líšiť. 👍 Aký typ papiera používaš na tlač fotografií? Lesklý, matný, špeciálny fotopapier? ✨ [EOS]
+
+Topic 115: Skener
+
+[USER] Na čo najčastejšie používaš skener? [EOS]
+[BOT] Skenovanie pomáha uchovávať dôležité veci v digitálnej podobe. 💾 Aké rozlíšenie (DPI) zvyčajne používaš pri skenovaní dokumentov a fotografií? Záleží to od účelu? 🤔 [EOS]
+[USER] Skenovanie šetrí miesto. [EOS]
+[BOT] Presne tak, namiesto šanónov máme súbory! 👍 V akom formáte najčastejšie ukladáš naskenované dokumenty? PDF, JPG, PNG? A prečo? ✨ [EOS]
+
+Topic 116: Klávesnica
+
+[USER] Preferuješ klasickú alebo ergonomickú klávesnicu? [EOS]
+[BOT] Ergonómia môže byť pri dlhom písaní dôležitá. ✍️ Aký je tvoj názor na mechanické klávesnice? Páči sa ti ich zvuk a odozva, alebo preferuješ tichšie membránové? 🤔 [EOS]
+[USER] Podsvietená klávesnica je užitočná v tme. [EOS]
+[BOT] Súhlasím, uľahčuje prácu večer. 👍 Akú farbu podsvietenia preferuješ? Bielu, modrú, RGB s možnosťou zmeny farieb? ✨ [EOS]
+
+Topic 117: Myš
+
+[USER] Používaš radšej káblovú alebo bezdrôtovú myš? [EOS]
+[BOT] Sloboda bez kábla alebo istota pripojenia? Každý má iné preferencie. 🖱️ Koľko tlačidiel by mala mať podľa teba ideálna myš? Stačia dve a koliesko, alebo využívaš aj bočné tlačidlá? 🤔 [EOS]
+[USER] Herné myši majú často viac funkcií. [EOS]
+[BOT] Áno, sú navrhnuté pre špecifické potreby hráčov. 👍 Akú funkciu na hernej myši považuješ za najužitočnejšiu? Nastaviteľné DPI, programovateľné tlačidlá, vysoká odozva? ✨ [EOS]
+
+Topic 118: Monitor
+
+[USER] Aká veľkosť monitora je pre teba ideálna? [EOS]
+[BOT] Veľkosť pracovnej plochy vie ovplyvniť produktivitu aj zážitok. 🖼️ Aký je tvoj názor na používanie viacerých monitorov naraz? Zvyšuje to efektivitu, alebo skôr rozptyľuje? 🤔 [EOS]
+[USER] Matný povrch monitora eliminuje odlesky. [EOS]
+[BOT] To je veľká výhoda, najmä pri práci pri okne. 👍 Čo je pre teba dôležitejšie pri monitore: obnovovacia frekvencia (Hz) alebo rozlíšenie (napr. Full HD, 4K)? Záleží to od využitia? ✨ [EOS]
+
+Topic 119: Router
+
+[USER] Aké vlastnosti sú pre teba dôležité pri výbere routera? [EOS]
+[BOT] Dobrý router je základom stabilnej domácej siete. ❤️📶 Aký je tvoj názor na Mesh Wi-Fi systémy pre pokrytie väčších domov? Máš s nimi skúsenosť? 🤔 [EOS]
+[USER] Dvojpásmový router ponúka lepšiu rýchlosť. [EOS]
+[BOT] Áno, pásmo 5 GHz býva menej zarušené. 👍 Používaš oddelenú Wi-Fi sieť pre hostí (Guest Network)? Považuješ to za užitočnú bezpečnostnú funkciu? ✨ [EOS]
+
+Topic 120: Heslo
+
+[USER] Ako často meníš svoje heslá? [EOS]
+[BOT] Pravidelná zmena hesiel je často odporúčaná pre zvýšenie bezpečnosti. 🔑 Aký je tvoj názor na používanie správcov hesiel? Uľahčujú život a zvyšujú bezpečnosť, alebo im nedôveruješ? 🤔 [EOS]
+[USER] Dvojfaktorové overenie zvyšuje bezpečnosť. [EOS]
+[BOT] Súhlasím, je to ďalšia vrstva ochrany. 👍 Ktorú metódu dvojfaktorového overenia preferuješ? SMS kód, aplikácia (napr. Google Authenticator), hardvérový kľúč? ✨ [EOS]
+
+Topic 121: Les
+
+[USER] Aké aktivity najradšej robíš v lese? [EOS]
+[BOT] Les ponúka toľko možností na relax a objavovanie. 🌲 Aký zvuk v lese máš najradšej? Šum lístia, spev vtákov, praskanie konárikov pod nohami? 🤔 [EOS]
+[USER] Prechádzka lesom je relaxačná. [EOS]
+[BOT] Veru áno, je to balzam na dušu! 👍 Aké ročné obdobie máš v lese najradšej a prečo? Jar kvôli prebúdzajúcej sa prírode, leto kvôli tieňu, jeseň kvôli farbám, alebo zimu kvôli tichu? ✨ [EOS]
+
+Topic 122: Hory
+
+[USER] Preferuješ letnú alebo zimnú turistiku v horách? [EOS]
+[BOT] Každé ročné obdobie v horách má svoje neopakovateľné čaro. ⛰️ Aký je tvoj najobľúbenejší typ horského terénu? Lesné chodníky, skalnaté štíty, lúky s výhľadmi? 😊 [EOS]
+[USER] Horské chaty ponúkajú útočisko. [EOS]
+[BOT] Súhlasím, sú dôležitou súčasťou turistiky! 👍 Aké je tvoje obľúbené jedlo alebo nápoj, ktoré si vždy rád/a dáš na horskej chate? Bryndzové halušky, kapustnica, čaj s rumom? ✨ [EOS]
+
+Topic 123: Rieka
+
+[USER] Akú aktivitu pri rieke máš najradšej? [EOS]
+[BOT] Rieky lákajú k rôznym dobrodružstvám aj k pokojnému oddychu. 💧 Aký je tvoj názor na splavovanie riek? Skúšal/a si to? Na kajaku, kanoe, alebo rafte? 🤔 [EOS]
+[USER] Pozdĺž riek často vedú cyklotrasy. [EOS]
+[BOT] To áno, je to skvelý spôsob, ako spoznávať krajinu! 👍 Aká rieka na Slovensku je podľa teba najvhodnejšia na nenáročnú cyklistiku popri brehu? Váh, Dunaj, Hron? ✨ [EOS]
+
+Topic 124: Jazero
+
+[USER] Ktoré slovenské jazero máš najradšej? [EOS]
+[BOT] Slovensko má mnoho krásnych jazier a vodných plôch. ✨ Aký je tvoj názor na umelo vytvorené jazerá (napr. štrkoviská)? Sú pre teba rovnako atraktívne ako prírodné? 🤔 [EOS]
+[USER] Voda v jazere býva pokojnejšia ako v mori. [EOS]
+[BOT] To je pravda, zvyčajne tam nie sú veľké vlny. 👍 Preferuješ pri jazere kamienkovú alebo trávnatú plochu na ležanie? A prečo? ✨ [EOS]
+
+Topic 125: More
+
+[USER] Akú farbu mora máš najradšej? [EOS]
+[BOT] Odtiene mora vedia byť naozaj úchvatné. 🌊 Ktorú morskú aktivitu by si chcel/a vyskúšať, ak si ešte nemal/a možnosť? Potápanie, surfovanie, plachtenie? 🤔 [EOS]
+[USER] Morský vzduch je zdravý. [EOS]
+[BOT] Súhlasím, má blahodarné účinky! 👍 Akú spomienku alebo pocit si vždy prinesieš od mora? Vôňu soli, zvuk vĺn, pocit piesku medzi prstami? ✨ [EOS]
+
+Topic 126: Oceán
+
+[USER] Aký je podľa teba najväčší rozdiel medzi morom a oceánom? [EOS]
+[BOT] Aj keď sú prepojené, vnímame ich často odlišne. 🐋🌍 Ktorého oceánskeho živočicha považuješ za najmajestátnejšieho alebo najzáhadnejšieho? Veľrybu, žraloka, chobotnicu? 🤔 [EOS]
+[USER] Tichý oceán je najväčší. [EOS]
+[BOT] Veru áno, pokrýva obrovskú časť planéty. 👍 Vieš, ktorá je najhlbšia časť svetových oceánov a kde sa nachádza? 😉 [EOS]
+
+Topic 127: Pláž
+
+[USER] Preferuješ piesočnaté alebo kamienkové pláže? [EOS]
+[BOT] Každý typ pláže má svojich priaznivcov. 🏖️ Aká je tvoja obľúbená "plážová" aktivita okrem plávania a opaľovania? Stavanie hradov z piesku, hranie volejbalu, zbieranie mušlí? 🤔 [EOS]
+[USER] Západ slnka na pláži je romantický. [EOS]
+[BOT] Súhlasím, má to magickú atmosféru! 👍 Aký nápoj si najradšej vychutnáš pri západe slnka na pláži? Koktail, víno, pivo, alebo len čistú vodu? ✨🍹 [EOS]
+
+Topic 128: Ostrov
+
+[USER] Aký typ ostrova by si najradšej navštívil/a? [EOS]
+[BOT] Ostrovy ponúkajú rôznorodé zážitky - od tropických rajov po drsné severské krajiny. 🏝️ Keby si si mohol/mohla vybrať jednu superschopnosť, ktorá by ti pomohla prežiť na opustenom ostrove, aká by to bola? Schopnosť lietať, dýchať pod vodou, komunikovať so zvieratami? 🤔 [EOS]
+[USER] Mnohé ostrovy majú unikátnu faunu a flóru. [EOS]
+[BOT] Presne tak, izolácia vedie k evolúcii jedinečných druhov. 👍 Ktorý ostrovný živočích ťa najviac fascinuje? Lemury na Madagaskare, korytnačky na Galapágoch, varany na Komodo? ✨ [EOS]
+
+Topic 129: Púšť
+
+[USER] Čo ťa najviac fascinuje na púšti? [EOS]
+[BOT] Púšť je miestom kontrastov a skrytej krásy. 🏜️ Aký dopravný prostriedok by si si vybral/a na cestu cez púšť? Terénne auto, ťavu, alebo možno špeciálnu buginu? 😉🐫 [EOS]
+[USER] V noci môže byť v púšti zima. [EOS]
+[BOT] Áno, teplotné rozdiely medzi dňom a nocou sú často extrémne. 👍 Aký je tvoj názor na púštne oázy? Sú pre teba symbolom nádeje a života uprostred nehostinnej krajiny? ✨ [EOS]
+
+Topic 130: Vodopád
+
+[USER] Aký najvyšší vodopád si videl/a na vlastné oči? [EOS]
+[BOT] Sila padajúcej vody je naozaj pôsobivá. 💧 Myslíš si, že kúpanie pod vodopádom (ak je to bezpečné a povolené) je osviežujúci zážitok, alebo skôr príliš adrenalínový? 🤔 [EOS]
+[USER] Zvuk vodopádu môže byť ohlušujúci. [EOS]
+[BOT] Súhlasím, najmä pri tých väčších! 👍 Ktorý svetoznámy vodopád by si chcel/a navštíviť najviac? Niagarské, Viktóriine, Iguazu? ✨ [EOS]
+
+Topic 131: Jaskyňa
+
+[USER] Čo sa ti na jaskyniach páči najviac? [EOS]
+[BOT] Jaskyne ukrývajú fascinujúci svet pod našimi nohami. 🦇 Aký pocit v tebe vyvoláva úplná tma a ticho, ktoré možno zažiť v niektorých častiach jaskýň? Pokoj, alebo skôr úzkosť? 🤔 [EOS]
+[USER] V jaskyniach je stabilná teplota. [EOS]
+[BOT] Áno, často okolo 8-12 stupňov Celzia po celý rok. 👍 Aký typ jaskyne ťa láka viac? Kvapľová s bohatou výzdobou, alebo ľadová s celoročným ľadom? ✨ [EOS]
+
+Topic 132: Sopka
+
+[USER] Čo si predstavíš pod pojmom "spiaca sopka"? [EOS]
+[BOT] Spiace sopky sú tichou pripomienkou síl driemajúcich pod povrchom. 🌋 Aký je tvoj názor na život v blízkosti aktívnych sopiek? Fascinujúce riziko, alebo zbytočný hazard? 🤔 [EOS]
+[USER] Sopečná pôda je veľmi úrodná. [EOS]
+[BOT] Presne tak, preto sa v okolí sopiek často pestuje. 👍 Vieš, ako sa volá najznámejšia sopka, ktorá zničila staroveké Pompeje? 😉 [EOS]
+
+Topic 133: Lesný požiar
+
+[USER] Ako vznikajú lesné požiare najčastejšie? [EOS]
+[BOT] Príčiny môžu byť rôzne, žiaľ, často je na vine ľudská neopatrnosť. 🔥 Aký je tvoj názor na prácu hasičov, ktorí bojujú s lesnými požiarmi? Považuješ ich za hrdinov? 🤔 [EOS]
+[USER] Po požiari sa les obnovuje pomaly. [EOS]
+[BOT] Áno, môže to trvať desiatky až stovky rokov. 😥 Akú rolu hrá vietor pri šírení lesného požiaru? ✨ [EOS]
+
+Topic 134: Znečistenie
+
+[USER] Ktorý typ znečistenia považuješ za najnebezpečnejší pre planétu? [EOS]
+[BOT] Každý typ znečistenia má svoje negatívne dopady. 😟 Čo si myslíš o svetelnom znečistení v mestách? Vadí ti, že nevidíš hviezdy, alebo to považuješ za nevyhnutnú daň za moderný život? 🤔🌃 [EOS]
+[USER] Znečistenie vody ohrozuje vodné živočíchy. [EOS]
+[BOT] Presne tak, má devastujúci vplyv na ekosystémy. 👍 Aký malý krok môžeš urobiť vo svojej domácnosti, aby si znížil/a znečistenie vody (napr. používaním ekologických čistiacich prostriedkov)? ✨ [EOS]
+
+Topic 135: Recyklovanie
+
+[USER] Triediš odpad pravidelne? [EOS]
+[BOT] Triedenie odpadu je základom recyklácie. ♻️ Aký je tvoj názor na zálohovanie PET fliaš a plechoviek na Slovensku? Považuješ to za dobrý systém? 🤔 [EOS]
+[USER] Sklo sa dá recyklovať donekonečna. [EOS]
+[BOT] Súhlasím, je to úžasná vlastnosť skla! 👍 Vieš, čo sa vyrába z recyklovaného papiera alebo plastov? ✨ [EOS]
+
+Topic 136: Obnoviteľné zdroje
+
+[USER] Aké sú výhody slnečnej energie? [EOS]
+[BOT] Slnko je nevyčerpateľným zdrojom čistej energie. 🌱☀️💨 Aký je tvoj názor na veterné turbíny v krajine? Páčia sa ti ako moderný prvok, alebo ti kazia výhľad? 🤔 [EOS]
+[USER] Vodné elektrárne využívajú silu vody. [EOS]
+[BOT] Áno, je to tradičný obnoviteľný zdroj. 👍 Myslíš si, že Slovensko má dostatočný potenciál na využívanie geotermálnej energie? ✨ [EOS]
+
+Topic 137: Zmena klímy
+
+[USER] Aké sú podľa teba hlavné príčiny zmeny klímy? [EOS]
+[BOT] Je to komplexný problém s viacerými faktormi, no ľudská činnosť hrá významnú rolu. 🌡️ Aký je tvoj názor na medzinárodné klimatické dohody (napr. Parížska dohoda)? Sú dostatočne ambiciózne a účinné? 🤔 [EOS]
+[USER] Topiace sa ľadovce zvyšujú hladinu morí. [EOS]
+[BOT] Presne tak, je to jeden z vážnych dôsledkov. 😥 Aký vplyv má zmena klímy na poľnohospodárstvo a produkciu potravín? ✨ [EOS]
+
+Topic 138: Ochrana prírody
+
+[USER] Prečo je podľa teba dôležité chrániť prírodu? [EOS]
+[BOT] Príroda nám dáva všetko, čo potrebujeme k životu. 💚 Akým spôsobom môže technológia pomôcť pri ochrane prírody? (napr. drony na monitorovanie, satelitné snímky) 🤔 [EOS]
+[USER] Chránené územia zachovávajú pôvodnú krajinu. [EOS]
+[BOT] Súhlasím, sú to dôležité útočiská pre rastliny a živočíchy. 👍 Akú rolu hrá vzdelávanie a osveta v ochrane prírody? Je dôležité o tom hovoriť s deťmi? ✨ [EOS]
+
+Topic 139: Národný park
+
+[USER] Ktorý slovenský národný park si navštívil/a naposledy? [EOS]
+[BOT] Naše národné parky ponúkajú nádherné prírodné scenérie. 🏞️ Aký suvenír si najradšej prinesieš z návštevy národného parku? Magnetku, pohľadnicu, alebo radšej len fotky a zážitky? 🤔 [EOS]
+[USER] V národných parkoch platia pravidlá pre turistov. [EOS]
+[BOT] Presne tak, je dôležité ich dodržiavať pre ochranu prírody. 👍 Prečo je zakázané v národných parkoch zakladať oheň mimo vyhradených miest? Aké riziká to prináša? 🔥 [EOS]
+
+Topic 140: Biodiverzita
+
+[USER] Prečo je biodiverzita dôležitá pre ekosystém? [EOS]
+[BOT] Každý druh má v prírode svoje miesto a úlohu. 🦋🐛🐠 Aký je tvoj názor na zoologické záhrady? Pomáhajú ochrane biodiverzity, alebo sú skôr väzením pre zvieratá? 🤔 [EOS]
+[USER] Strata biodiverzity oslabuje prírodu. [EOS]
+[BOT] Áno, ekosystémy sú potom menej odolné voči zmenám. 👍 Aký hmyz považuješ za najužitočnejší pre prírodu a prečo? Včely, mravce, lienky? ✨🐞 [EOS]
+
+Topic 141: Mesto
+
+[USER] Čo sa ti na živote v meste najviac páči? [EOS]
+[BOT] Mestá ponúkajú množstvo príležitostí a kultúrneho vyžitia. 🏙️ Keby si mohol/mohla zmeniť jednu vec na svojom meste, čo by to bolo? Viac zelene, menej áut, lepšia doprava? 🤔 [EOS]
+[USER] Mestá majú bohatú históriu. [EOS]
+[BOT] Áno, mnohé skrývajú fascinujúce príbehy. 👍 Ktorá historická budova alebo pamiatka vo tvojom meste je tvoja najobľúbenejšia a prečo? ✨ [EOS]
+
+Topic 142: Bývanie
+
+[USER] Aký štýl bývania preferuješ? [EOS]
+[BOT] Každý má iný vkus, či už moderný, minimalistický, alebo rustikálny. 🏡 Ktorý kus nábytku vo tvojom byte/dome má pre teba najväčšiu sentimentálnu hodnotu a prečo? 🤔 [EOS]
+[USER] Podnájom je flexibilný. [EOS]
+[BOT] To áno, umožňuje ľahšiu zmenu miesta. 👍 Aký je tvoj názor na zdieľané bývanie (spolubývanie)? Skúšal/a si to? Aké sú jeho výhody a nevýhody? ✨ [EOS]
+
+Topic 143: Dom
+
+[USER] Čo považuješ za najväčšiu výhodu bývania v dome? [EOS]
+[BOT] Dom ponúka viac súkromia a priestoru. 🌳 Akú prácu okolo domu a záhrady robíš najradšej? Kosenie trávy, starostlivosť o kvety, drobné opravy? ✨ [EOS]
+[USER] Záhrada pri dome je skvelá na relax. [EOS]
+[BOT] Súhlasím, je to vlastný kúsok prírody! 👍 Čo najradšej pestuješ vo svojej záhrade? Zeleninu, ovocie, kvety, bylinky? 🍅🍓🌸 [EOS]
+
+Topic 144: Ulica
+
+[USER] Čo sa ti na tvojej ulici najviac páči? [EOS]
+[BOT] Každá ulica má svoju jedinečnú tvár a príbehy. 🏘️ Keby tvoja ulica mohla mať vlastnú hymnu, aký žáner by to bol a o čom by spievala? 😉🎶 [EOS]
+[USER] Slepá ulica je zvyčajne pokojná. [EOS]
+[BOT] Áno, býva tam menej premávky. 👍 Aká je najkrajšia dekorácia alebo úprava pred domom, ktorú si videl/a na svojej ulici? Pekná záhradka, zaujímavá brána, sezónna výzdoba? ✨ [EOS]
+
+Topic 145: Susedia
+
+[USER] Ako často komunikuješ so svojimi susedmi? [EOS]
+[BOT] Dobré susedské vzťahy sú na nezaplatenie. 😄 Aký je tvoj názor na susedské párty alebo spoločné akcie? Zúčastňuješ sa ich rád/rada? 🤔 [EOS]
+[USER] Pomoc od susedov môže byť užitočná. [EOS]
+[BOT] Určite, niekedy stačí požičať cukor alebo postrážiť poštu! 👍 Aký zvuk od susedov ti najviac vadí? Hlasná hudba, vŕtanie, štekanie psa? 😉 [EOS]
+
+Topic 146: Verejná doprava
+
+[USER] Aký dopravný prostriedok verejnej dopravy používaš najčastejšie? [EOS]
+[BOT] Výber závisí od trasy, dostupnosti a osobných preferencií. 🚌🚋 Akú najzaujímavejšiu vec si zažil/a alebo videl/a počas cesty verejnou dopravou? 😉 [EOS]
+[USER] Električky sú často rýchlejšie v centre mesta. [EOS]
+[BOT] Áno, majú často vlastné koľaje a vyhnú sa zápcham. 👍 Čo robíš najčastejšie počas cesty verejnou dopravou? Počúvaš hudbu, čítaš knihu, pozeráš z okna, alebo pracuješ? 🎧📖 [EOS]
+
+Topic 147: Obchod
+
+[USER] Preferuješ veľké nákupné centrá alebo malé lokálne obchody? [EOS]
+[BOT] Každý typ obchodu má svoje výhody a atmosféru. 🛍️ Aký obchodný reťazec je tvoj najobľúbenejší a prečo? Kvôli sortimentu, cenám, kvalite? 🤔 [EOS]
+[USER] Farmárske trhy ponúkajú čerstvé produkty. [EOS]
+[BOT] Súhlasím, je to skvelý spôsob, ako podporiť lokálnych pestovateľov! 👍 Aký produkt si najradšej kupuješ na farmárskom trhu? Zeleninu, ovocie, syry, med? 🥕🍎🧀🍯 [EOS]
+
+Topic 148: Kníhkupectvo
+
+[USER] Aký žáner kníh najradšej hľadáš v kníhkupectve? [EOS]
+[BOT] Regály kníhkupectiev ukrývajú nekonečné svety. 📚 Aký je tvoj názor na antikvariáty? Rád/a v nich hľadáš staré poklady? 🤔 [EOS]
+[USER] V kníhkupectve je príjemná atmosféra. [EOS]
+[BOT] Veru áno, má to svoje čaro. 👍 Čo robíš ako prvé, keď vojdeš do kníhkupectva? Ideš priamo k obľúbenému žánru, alebo sa len tak túlaš a prezeráš novinky? ✨ [EOS]
+
+Topic 149: Kaviareň
+
+[USER] Aký druh kávy si najčastejšie objednávaš v kaviarni? [EOS]
+[BOT] Vôňa čerstvej kávy je pre mnohých neodolateľná. ☕ Aký typ sedenia v kaviarni preferuješ? Pohodlné kreslo, stôl pri okne, miesto vonku na terase? 🤔 [EOS]
+[USER] Kaviareň je dobré miesto na stretnutie s priateľmi. [EOS]
+[BOT] Určite, je to ideálne na neformálne rozhovory. 👍 Čo si okrem kávy rád/a dáš v kaviarni?
+
 [USER] Chodil si na jazykový kurz? [EOS]
 [BOT] Jazykové kurzy sú štruktúrovaným spôsobom, ako sa naučiť nový jazyk. 📚 Ktorý jazyk by si sa chcel/a naučiť plynule a aké dvere by ti to podľa teba otvorilo? Cestovanie, práca, spoznávanie nových ľudí? ✈️💼 [EOS]
 [USER] Jazykové kurzy sú dobré na učenie. [EOS]
